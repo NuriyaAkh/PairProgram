@@ -1,4 +1,4 @@
-.card {
+.cards {
     display: flex;
     max-width:1002px;
     justify-content: space-between;
@@ -7,7 +7,7 @@
 
 .card__image-block {
     background-color: #BCD1FF;
-    width: 400px;
+    min-width: 400px;
     height: 400px;
     border-radius: 16px 0px 0px 16px;
     display:flex;
@@ -19,6 +19,7 @@
     grid-template-columns: auto;
     grid-template-rows: repeat(4,auto);
     row-gap: 25px;
+    max-width: 602px;
 }
 .card__main-subject {
     display: flex;
@@ -28,10 +29,8 @@
     align-self: center;
     max-width: 240px;
     max-height: 240px;
-    padding:0 160px;
-
+    padding:0;
 }
-
 .card__avatar-text{
     margin-left:12px;
     font-size: 18px;
