@@ -1,0 +1,145 @@
+.card {
+    display: flex;
+    max-width:1002px;
+    justify-content: space-between;
+    
+}
+
+.card__image-block {
+    background-color: #BCD1FF;
+    width: 400px;
+    height: 400px;
+    border-radius: 16px 0px 0px 16px;
+    display:flex;
+    justify-content: center;
+}
+.card__main {
+    display: grid;
+    margin-left:35px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4,auto);
+    row-gap: 25px;
+}
+.card__main-subject {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+.card__image-block__image{
+    align-self: center;
+    max-width: 240px;
+    max-height: 240px;
+    padding:0 160px;
+
+}
+
+.card__avatar-text{
+    margin-left:12px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #007AE9;
+}
+.card__avatar-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #007AE9;
+}
+.card__avatar-author{
+    display: flex;
+}
+.card__avatar-image{
+    width: 44px;
+    height: 44px;
+}
+.card__avatar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__main-text{
+    text-transform: uppercase;
+    color:#6E798C;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.card__main-time{
+    font-size: 18px;
+    font-weight: 400;
+}
+.card__title{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+}
+.card__paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    color: #374A59;
+    margin: 0;
+}
+
+.card__avatar-text{
+    margin-left:12px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #007AE9;
+}
+.card__avatar-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #007AE9;
+}
+.card__avatar-author{
+    display: flex;
+}
+.card__avatar-image{
+    width: 44px;
+    height: 44px;
+}
+.card__avatar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__main-text{
+    text-transform: uppercase;
+    color:#6E798C;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+}
+.card__main-time{
+    font-size: 18px;
+    font-weight: 400;
+}
+.card__title{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+}
+.card__paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    color: #374A59;
+    margin: 0;
+}
+
+@media screen and (max-width: 318px) {
+    .card {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;}
+    }
+    .cards {
+        width: 318px;
+        margin: 0;
+        padding: 0;
+    }
+    .card__main {
+        width: 100%;
+    }
+    .card__image-block {
+        width: 100%;
+    }
